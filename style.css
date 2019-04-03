@@ -1,5 +1,16 @@
+body{
+  background: lightblue;
+  text-align: center;
+}
 .wrapper{
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+}
+
+img{
+  transition: 2s 0s ease;
+}
+img:hover{
+  transform: rotate(360deg);
 }
